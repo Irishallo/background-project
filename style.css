@@ -1,3 +1,23 @@
 body {
     margin: 0;
 }
+
+nav {
+    border: 2px solid #555555;
+    z-index: 2;
+}
+
+#hero {
+   background-image: url("your_verse_hero.jpg"); 
+   background-position: 0px -600px;
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+}
+
+.smallitem {
+    background-color: #f0c3a4;
+}
