@@ -10,27 +10,61 @@ body {
 
 #container {
     margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    max-width: 100%;
 }
 
 nav {
-    border: 2px solid #555555;
     width: 70%;
+    margin: auto;
+    background: linear-gradient(rgb(112, 112, 112) 0%, rgb(112, 112, 112) 50%,
+     rgb(146, 146, 146) 50%, rgb(146, 146, 146) 100%) ;
+    border-radius: 5px;
+    height: 3em;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 100px;
+    left: 15%;
+}
+
+.navfl {
+    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+    display: flex;
+    align-items: center;
+    flex: 1 1 min-content;
+    justify-content: center;
 }
 
 #hero {
-   background-image: url("your_verse_hero.jpg"); 
-   background-size: 100%, cover;
-   background-position: 0px -600px;
-   width: 100%;
+    background-image: url("your_verse_hero.jpg"); 
+    background-size: cover;
+    background-position: 0px -600px;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #smallcontainer {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
+    position: absolute;
+    top: 101vh;
 }
 
 .smallitem {
     background-color: #f0c3a4;
     width: 20%;
+}
+
+footer {
+    position: absolute;
+    top: 140vh;
 }
