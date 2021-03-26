@@ -18,25 +18,32 @@ body {
 }
 
 nav {
-    width: 70%;
+    width: 80%;
     margin: auto;
-    background: linear-gradient(rgb(112, 112, 112) 0%, rgb(112, 112, 112) 50%,
-     rgb(146, 146, 146) 50%, rgb(146, 146, 146) 100%) ;
+    background: linear-gradient(rgb(80, 80, 80) 0%, rgb(80, 80, 80) 50%,
+     rgb(100, 100, 100) 50%, rgb(100, 100, 100) 100%) ;
     border-radius: 5px;
-    height: 3em;
+    height: 2.5em;
     display: flex;
     flex-wrap: nowrap;
     position: absolute;
     top: 100px;
-    left: 15%;
+    left: 10%;
 }
 
 .navfl {
-    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15));
     display: flex;
     align-items: center;
     flex: 1 1 min-content;
     justify-content: center;
+    color: #ffffff;
+    font-size: 12px;
+    border-right: solid 1px #585858;
+}
+
+.navinput  {
+    border-right: none;
 }
 
 #hero {
@@ -49,6 +56,30 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.herotekst {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 180px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 55px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 #smallcontainer {
@@ -62,6 +93,23 @@ nav {
 .smallitem {
     background-color: #f0c3a4;
     width: 20%;
+    height: 200px;
+}
+
+.smallitem1 {
+    background: url("promo_iphone5s.jpg");;
+}
+
+.smallitem2 {
+    background: url("promo_iphone5c.jpg");;
+}
+
+.smallitem3 {
+    background: url("promo_30_years.jpg");;
+}
+
+.smallitem4 {
+    background: url("promo_supplier_responsibility.jpg");;
 }
 
 footer {
