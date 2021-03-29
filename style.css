@@ -46,6 +46,13 @@ nav {
     border-right: none;
 }
 
+input {
+    background: rgba(255, 255, 255, 0.219);
+    width: 100px;
+    border-radius: 25px;
+    border: none;
+}
+
 #hero {
     background-image: url("your_verse_hero.jpg"); 
     background-size: cover;
@@ -91,8 +98,7 @@ h3 {
 }
 
 .smallitem {
-    background-color: #f0c3a4;
-    width: 20%;
+    width: 25%;
     height: 200px;
 }
 
@@ -115,4 +121,9 @@ h3 {
 footer {
     position: absolute;
     top: 140vh;
+    font-size: 10px;
+    color: #585858;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
